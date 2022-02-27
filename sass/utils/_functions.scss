@@ -1,0 +1,101 @@
+@media (min-width: 100px) {
+    .texteentete h1 {font-family: 'Shrikhand', cursive; font-size: 100%;}
+    #ohmyfood p{font-size: 70%;}
+    #logoohmyfood h4{font-size: 100%;}
+    h2{font-size: 100%;}
+    .titrecarte h2 {font-size: 100%}
+    .logo p{font-size: 30%;}
+    #explorer p{font-size: 80%;}
+    #enteteindex{font-size: 50%;}
+    #entetefrancaise{font-size: 50%;}
+    #photocartealafrancaise {height: 120px;}
+    #photocartelanoteenchantee {height: 120px;}
+    #photorestopalette {height: 80px;}
+    #photorestonote {height: 80px;}
+    .photoresto {height: 80px;}
+    .logodescription {height: 15px;}
+    #ohmyfood p:hover {font-size: 80%;}
+    .coeurresto p {font-size: 1em;}
+    .coeurplein p {font-size: 1em;color: white;}
+    
+}
+
+@media (min-width: 300px) {
+    .texteentete h1 {font-family: 'Shrikhand', cursive; font-size: 200%;}
+    #ohmyfood p{font-size: 100%;}
+    #logoohmyfood h4{font-size: 125%;}
+    h2{font-size: 150%;}
+    .titrecarte h2 {font-size: 180%}
+    .description {height: 100%;}
+    #explorer p{font-size: 100%;}
+    #enteteindex{font-size: 100%;}
+    #entetefrancaise{font-size: 100%;}
+    #photocartealafrancaise {height: 280px;}
+    #photocartelanoteenchantee {height: 280px;}
+    #photocartelapalettedugout {height: 280px;}
+    #photocarteledelicedessens {height: 280px;}
+    #photorestopalette {height: 180px;}
+    #photorestonote {height: 180px;}
+    .photoresto {height: 180px;}
+    .logodescription {height: 25px;}
+    #ohmyfood p:hover {font-size: 130%;}
+    .coeurresto p {font-size: 1.5em;}
+    .coeurplein p {font-size: 1.5em;color: white;}
+
+}
+
+@media (min-width: 768px) {
+    .texteentete h1 {font-family: 'Shrikhand', cursive; font-size: 400%;}
+    #ohmyfood p{font-size: 160%;}
+    #logoohmyfood h4{font-size: 185%;}
+    h2{font-size: 185%;}
+    .titrecarte h2 {font-size: 300%}
+    #explorer p{font-size: 100%;}
+    #enteteindex{font-size: 200%;}
+    #entetefrancaise{font-size: 200%;}
+    #photocartealafrancaise {height: 480px;}
+    #photocartelanoteenchantee {height: 480px;}
+    #photocartelapalettedugout {height: 480px;}
+    #photocarteledelicedessens {height: 480px;}
+    #photorestopalette {height: 180px;}
+    #photorestonote {height: 180px;}
+    .photoresto {height: 180px;}
+    .logodescription {height: 35px;}
+    #ohmyfood p:hover {font-size: 200%;}
+    .coeurresto p {font-size: 2em;}
+    .coeurplein p {font-size: 2em;color: white;}
+
+}
+
+@media (max-width: 992px) {
+
+        // Remplissage du coeur en dégradé au clic
+
+        .coeurplein:active {
+            opacity: 1;
+        }
+    
+        .fa-heart:active {
+            background:linear-gradient($primary-color, $secondary-color 40%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: roll 500ms linear;
+        }
+    
+}
+
+@media (min-width: 992px) {
+
+    // Remplissage du coeur en dégradé au survol
+
+    .coeurplein:hover {
+        opacity: 1;
+    }
+
+    .fa-heart:hover {
+        background:linear-gradient($primary-color, $secondary-color 40%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: roll 500ms linear;
+    }
+}

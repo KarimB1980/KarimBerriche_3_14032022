@@ -1,0 +1,126 @@
+h1 {
+    font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+h4 {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    //line-height: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+#flecheentete p {
+    color: black;
+}
+
+.quartierresto p {
+    margin: 0px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.restaurant a {
+    color: black;
+}
+
+#ohmyfood h1 {
+    color: white;
+}
+
+#ohmyfood p {
+    color: white;
+    line-height: 50%;
+
+    margin: 0;
+}
+
+.logo {
+    line-height: 0%;
+    margin: 0%;
+}
+
+.logo p {
+    line-height: 0%;
+    margin: 0%;
+}
+
+.logodescription p {
+    line-height: 0%;
+    margin: 0%;
+}
+
+#reservation p, #fonctionnement p, #titrerestaurants p {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#fonction p {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.titreresto p {
+    font-size: 100%;
+}
+
+.coeurresto p {
+    font-size: 1.5em;
+}
+
+.coeurplein p {
+    font-size: 1.5em;
+    color: white;
+}
+
+
+// Paramètres généraux à toutes les cartes
+
+.titrecarte h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 200%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.flecheentete p {
+    color: black;
+    font-size: x-large;
+}
+
+.natureplat p {
+    margin: 0%;
+    margin-bottom: 6px;
+}
+
+.recetteaccompagnement p {
+    margin: 0%;
+    margin-top: 5px;
+}
+
+.prix p{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;

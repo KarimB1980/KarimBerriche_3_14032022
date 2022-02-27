@@ -1,0 +1,28 @@
+/* Header */
+
+#enteteindex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.enteterestos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.flecheentete {
+    margin-left: 5%;
+}
+
+.texteentete {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flecheentete p:hover {
+    font-size: 200%;
+}
