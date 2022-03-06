@@ -1,10 +1,11 @@
+/* Typography */
+
 h1 {
     font-family: 'Shrikhand', cursive;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 200%;
 }
 
 h3 {
@@ -15,7 +16,6 @@ h3 {
 h4 {
     font-family: 'Shrikhand', cursive;
     color: white;
-    //line-height: 100%;
 }
 
 p {
@@ -47,8 +47,7 @@ a {
 
 #ohmyfood p {
     color: white;
-    line-height: 50%;
-
+    line-height: 100%;
     margin: 0;
 }
 
@@ -62,40 +61,32 @@ a {
     margin: 0%;
 }
 
+.liste p {
+    height: 100%;
+}
+
 .logodescription p {
     line-height: 0%;
     margin: 0%;
 }
 
 #reservation p, #fonctionnement p, #titrerestaurants p {
-    font-size: 150%;
     font-weight: bold;
 }
 
 #fonction p {
-    font-size: 100%;
     font-weight: bold;
 }
 
-.titreresto p {
-    font-size: 100%;
-}
-
-.coeurresto p {
-    font-size: 1.5em;
-}
-
 .coeurplein p {
-    font-size: 1.5em;
     color: white;
 }
 
 
-// Paramètres généraux à toutes les cartes
+/* Propriétés générales à toutes les cartes */
 
 .titrecarte h2 {
     font-family: 'Shrikhand', cursive;
-    font-size: 200%;
     margin-top: 0%;
     margin-bottom: 0%;
 }
@@ -120,7 +111,3 @@ a {
     margin-bottom: 0px;
     font-weight: bold;
 }
-
-$primary-color: #9356DC;
-$secondary-color: #FF79DA;
-$tertiary-color: #99E2D0;

@@ -1,3 +1,7 @@
+/* Buttons */
+
+/* Bouton "Explorer nos restaurants" */
+
 #explorer {
     display: flex;
     text-align: center;
@@ -8,14 +12,14 @@
     background: linear-gradient($secondary-color, $primary-color);
     color: white;
     height: 3em;
-    box-shadow: 5px 5px 5px #D3D3D3;
-    transition: all 500ms;
+    @include ombre
 }
 
 #explorer:hover {
-    filter: brightness(150%);
-    box-shadow: 10px 10px 10px #616161;
+    @include surbrillance;
 }
+
+/* Bouton pour les quatre restaurants */
 
 .restaurant {
     width: 90%;
@@ -25,19 +29,23 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 5px 5px 5px #D3D3D3;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    transition: all 500ms;
+    @include ombre
 }
 
 .restaurant:hover {
-    filter: brightness(150%);
-    box-shadow: 10px 10px 10px #616161;
+    @include surbrillance;
 }
 
+/* Bouton pour les entrées, plats et desserts */
+
 .boutonplat {
+    position: relative;
+    top: 0em;
+    left: 0em;
+    overflow: hidden;
     width: 94%;
     margin-left: auto;
     margin-right: auto;
@@ -45,33 +53,16 @@
     border-radius: 15px 15px 15px 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-top: 15px;
     box-shadow: 5px 5px 5px #D3D3D3;
-    transition: all 500ms;
-
-    animation: fadein 4s; 
-}
-@keyframes fadein {
- 0% {
- opacity:0;
- }
- 50%{
- opacity:0.5;
- }
- 100% {
- opacity:1;
- }
+    cursor: pointer;
+    transition: all 0.3s linear 0s;
 }
 
-
-.boutonplat:hover {
-    box-shadow: 10px 10px 10px #616161;
-}
+/* Bouton "Commander" */
 
 .commander {
     display: flex;
@@ -84,11 +75,9 @@
     color: white;
     height: 3em;
     margin-top: 50px;
-    box-shadow: 5px 5px 5px #D3D3D3;
-    transition: all 500ms;
+    @include ombre
 }
 
 .commander:hover {
-    filter: brightness(150%);
-    box-shadow: 10px 10px 10px #616161;
+    @include surbrillance;
 }

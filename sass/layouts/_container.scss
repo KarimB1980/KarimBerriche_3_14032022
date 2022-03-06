@@ -1,6 +1,6 @@
-//container
+/* container */
 
-//page d'accueil
+/* page d'accueil */
 
 #degrade {
     height: 10px;
@@ -95,30 +95,26 @@
     flex-wrap: wrap;
 }
 
-
 #photorestopalette {
     display: flex;
-    height: 160px;
     width: 100%;
     max-width: 405px;
-    background-image: url("../../public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-image: url("../../../public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 #photorestonote {
     display: flex;
-    height: 160px;
     width: 100%;
     max-width: 405px;
-    background-image: url("../../public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-image: url("../../../public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 .photoresto {
     display: flex;
-    height: 160px;
     width: 100%;
     max-width: 405px;
 }
@@ -147,7 +143,6 @@
 }
 
 .coeur {
-    //position: absolute;
     display: flex;
     justify-content: space-between;
     margin-right: 5%;
@@ -193,7 +188,8 @@
     justify-content: space-between;
 }
 
-// Paramètres génaraux à toutes les cartes
+
+/* Propriétés générales à toutes les cartes de menu */
 
 .bordurecarte {
 
@@ -236,35 +232,37 @@
     height: 40px;
 }
 
-// A la française
+/* A la française */
 
 #photocartealafrancaise {
     display: flex;
-    height: 220px;
     width: 100%;
     background-image: url("../../public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
     background-size: cover;
 }
 
+/* La note enchantée */
+
 #photocartelanoteenchantee {
     display: flex;
-    height: 220px;
     width: 100%;
     background-image: url("../../public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     background-size: cover;
 }
 
+/* La palette du goût */
+
 #photocartelapalettedugout {
     display: flex;
-    height: 220px;
     width: 100%;
     background-image: url("../../public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     background-size: cover;
 }
 
+/* Le délice des sens */
+
 #photocarteledelicedessens {
     display: flex;
-    height: 220px;
     width: 100%;
     background-image: url("../../public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     background-size: cover;
