@@ -1,7 +1,7 @@
 /* Base */
 /* Animations */
 
-/* Apparition des entrées, plats et desserts à l'ouvertur d'une page menu */
+/* Apparition des entrées, plats et desserts à l'ouverture d'une page menu */
 
 .espacep {
     display: flex;
@@ -61,7 +61,7 @@
 }
 
 .fa-check {
-    color: #99E2D0;
+    color: $tertiary-color;
 }
 
 .boutonplat-coche {
